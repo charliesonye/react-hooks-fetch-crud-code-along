@@ -1,3 +1,28 @@
 {
-  "items": []
+  "items": [
+    {
+      "name": "Hello",
+      "category": "Produce",
+      "isInCart": true,
+      "id": 2
+    },
+    {
+      "name": "Charles ",
+      "category": "Produce",
+      "isInCart": false,
+      "id": 3
+    },
+    {
+      "name": "Charles ",
+      "category": "Produce",
+      "isInCart": false,
+      "id": 4
+    },
+    {
+      "name": "Charles Onyemem",
+      "category": "Dessert",
+      "isInCart": false,
+      "id": 5
+    }
+  ]
 }

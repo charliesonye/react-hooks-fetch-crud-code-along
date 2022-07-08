@@ -15,7 +15,13 @@ function Item({ item, onUpdateItem, onDeleteItem }) {
       }),
     })
     .then((res)=> res.json())
-    .then((updatedItem)=> onUpdateItem(updatedItem))
+    .then((updatedItem)=> {
+      onUpdateItem(updatedItem)
+      console.log(updatedItem)  
+      })
+    
+    
+    
   }
     function handleDeleteClick() {
      fetch(`http://localhost:4000/items/${item.id}`, {
